@@ -1,7 +1,7 @@
 let bodyParser = require('body-parser')
 let mongoose = require('mongoose');
 //connect to mongodb
-mongoose.connect("mongodb+srv://abdullah:dbUser@todoappnode.irdp1.mongodb.net/<dbname>?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://{username}:dbUser@{appName}.irdp1.mongodb.net/<dbname>?retryWrites=true&w=majority")
 
 //create a blueprint for our data
 
